@@ -1,0 +1,27 @@
+html{
+  /*scroll-behavior: smooth;*/
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;   /* 👈 vertical stack */
+  gap: 20px;
+  align-items: center;      /* center images horizontally */
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;             /* keeps original image ratio */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
